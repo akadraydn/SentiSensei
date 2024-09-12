@@ -57,8 +57,8 @@ def preprocess_text(text):
     return text
 
 # Kaydedilen modeli ve TF-IDF vektörizer'ı yükleme
-model_path = '/Users/akadraydn/Desktop/sentiment-analysis-with-ai/models/stacking_model.pkl'
-vectorizer_path = '/Users/akadraydn/Desktop/sentiment-analysis-with-ai/models/tfidf_vectorizer.pkl'
+model_path = '/Users/akadraydn/Desktop/SentiSensei/models/stacking_model.pkl'
+vectorizer_path = '/Users/akadraydn/Desktop/SentiSensei/models/tfidf_vectorizer.pkl'
 
 print("Model ve TF-IDF vektörizer yükleniyor...")
 model = joblib.load(model_path)
